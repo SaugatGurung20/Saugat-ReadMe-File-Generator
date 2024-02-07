@@ -60,3 +60,19 @@ function writeToFile(fileName, data) {
 }
 
 
+// function to initialize program
+function init() {
+    inquirer.prompt(questions)
+        .then(answers => {
+            const markdown = generateMarkdown(answers);
+            writeToFile("README.md", markdown);
+            console.log("README.md successfully generated!");
+        })
+        .catch(error => {
+            console.log("An error occurred while generating README:", error);
+        });
+}
+
+
+// function call to initialize program
+init();
