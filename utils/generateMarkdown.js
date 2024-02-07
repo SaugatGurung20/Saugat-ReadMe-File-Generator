@@ -9,6 +9,7 @@ ${data.description}
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
+- [Tests](#tests)
 - [Questions](#questions)
 
 ## Installation
@@ -22,6 +23,9 @@ This project is licensed under the ${data.license} license.
 
 ## Contributing
 ${data.contributing}
+
+## Tests
+${data.tests}
 
 ## Questions
 For any questions regarding this project, please contact ${data.email}. You can also visit my [GitHub profile](https://github.com/${data.github}) for additional information.

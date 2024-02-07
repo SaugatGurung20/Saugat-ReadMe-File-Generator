@@ -38,6 +38,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "tests",
+        message: "Provide test instructions:"
+    },
+    {
+        type: "input",
         name: "screenshot",
         message: "Provide a link to a screenshot of your project (if available):"
     },
